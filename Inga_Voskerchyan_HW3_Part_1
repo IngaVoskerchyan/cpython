@@ -1,0 +1,7 @@
+name = "Kiara"
+GPA = [3.8, 4, 4, 4, 4, 3.94, 3.86, 4]
+def mean(GPA):
+    print name, 
+    print "your overall average GPA is",
+    print float(sum(GPA))/max(len(GPA),1)
+mean(GPA)
